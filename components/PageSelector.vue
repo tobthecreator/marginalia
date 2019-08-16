@@ -28,6 +28,13 @@
     >
       Test
     </nuxt-link>
+    <nuxt-link
+      class="link"
+      to="/test2"
+      :class="'/test2' === this.path ? 'link-active' : ''"
+    >
+      Test2
+    </nuxt-link>
   </div>
 </template>
 

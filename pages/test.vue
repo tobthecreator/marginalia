@@ -139,7 +139,4 @@ export default {
 </script>
 
 <style lang="css" scoped>
-h1 {
-  font-size: 2em;
-}
 </style>

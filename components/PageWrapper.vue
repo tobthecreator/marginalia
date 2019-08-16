@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="columns is-mobile is-marginless is-centered">
-      <div class="column is-narrow h1 is-paddingless"><b>marginalia</b></div>
+      <div class="column is-narrow title is-paddingless">marginalia</div>
     </div>
     <div class="columns is-mobile is-marginless is-centered">
       <div class="column is-narrow is-paddingless">
@@ -9,8 +9,8 @@
       </div>
     </div>
 
-    <div class="columns content is-mobile is-marginless is-centered">
-      <div class="column is-half-desktop is-four-fifths-mobile is-paddingless">
+    <div class="columns is-mobile is-marginless is-centered">
+      <div class="column content is-half-desktop is-four-fifths-mobile is-paddingless">
         <slot></slot>
       </div>
     </div>
@@ -40,7 +40,9 @@ export default {
   margin-right: 10px;
 }
 
-.h1 {
+.title {
   font-size: 3em;
+  font-weight: bold;
 }
+
 </style>

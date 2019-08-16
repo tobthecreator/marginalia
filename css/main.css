@@ -1,0 +1,24 @@
+html {
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+ul:first-child,
+ol:first-child {
+  margin-top: 0;
+}
+
+ul:last-child,
+ol:last-child {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.3;
+  font-weight: bold;
+}
